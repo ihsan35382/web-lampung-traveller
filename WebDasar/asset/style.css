@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0%;
+}
+ h2, h3 {
+    color: #94AF9F;
+ }
+
+ p {
+    text-indent: 2em;
+    font-family: sans-serif;
+    text-align: justify;
+ }
+
+ #letter-spacing {
+    letter-spacing: 4px;
+ }
+
+ .card {
+    box-shadow: 0 4px 8px 0 #CCD5AE;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+ }
+
+ .jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #CCD5AE;
+    background-image: repeating-linear-gradient(#FFD966, #E7B10A );
+    text-align: center;
+    color: black;
+ }
+
+ nav {
+    background-color: #408E91;
+    padding: 4px;
+    position: sticky;
+    top: 0;
+ }
+
+ nav a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #011213;
+ }
+
+ nav ul li a:hover {
+    font-weight: bold;
+    color: #EBB02D;
+ }
+
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+
+ .featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+   transition: transfrom .2s;
+   border-radius: 5px;
+ }
+
+.featured-image:hover {
+   transform: scale(1.1);
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+
+ main {
+   padding: 0;
+   overflow: auto;
+ }
+.content {
+   float: left;
+   width: 70%;
+}
+
+aside {
+   float: right;
+   width: 30%;
+   padding: 10px;
+}
+
+ .profile {
+   text-align: center;
+   overflow: auto;
+ }
+
+.media {
+   display: inline;
+   margin: 5px;
+}
+
+ footer {
+   padding: 15px;
+   color: #408E91;
+   background-color: #57C5B6;
+   text-align: center;
+   font-weight: bold;
+
+ }
+
+ @media screen and (max-width: 1000px){
+      .content,
+      aside {
+         width: 100%;
+         padding: 0;
+      }
+ }
